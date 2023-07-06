@@ -126,3 +126,42 @@
 .service{
     background-color: rgba(13, 13, 13, 0.896);
 }
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 100px 150px 100px;
+    
+    
+}
+.all-footer{
+    background-color: black;
+    color: white;
+}
+.links{
+    list-style: none;
+}
+.links h4{
+    margin-bottom: 20px;
+}
+.links li{
+    margin: 5px;
+}
+.first-footer h2{
+    margin-bottom: 20px;
+}
+.copy-right{
+    margin-top: 100px;
+}
+.last-footer p{
+    text-align: center;
+    padding: 15px;
+
+}
+.last-footer hr{
+    width: 1000px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+
