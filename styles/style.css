@@ -49,6 +49,7 @@
 .title{
     font-size: 50px;
     font-weight: bold;
+
 }
 .description{
     font-size: 20px;
@@ -60,6 +61,7 @@
     background-color: bisque;
     cursor: pointer;
     border: none;
+    font-size: 16px;
 }
 .btn:hover{
     background-color: black;
@@ -79,4 +81,48 @@
 .about-text p{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.our-service{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    padding: 40px;
+}
+.box{
+    width: 230px;
+    height: 260px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.web{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-btn:hover{
+    background-color: bisque;
+    color: black;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    
+    
+}
+.service{
+    background-color: rgba(13, 13, 13, 0.896);
 }
